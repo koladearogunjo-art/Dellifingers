@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delli's Finger - Homemade • Tasty • Friendly</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#EB8C2A;--green:#1F7A4D;--bg:#FAF8F5}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:var(--bg)}
+h1,h2{font-family:'Fredoka',sans-serif}
+.header{display:flex;justify-content:space-between;align-items:center;padding:14px 5%;background:white;box-shadow:0 2px 12px rgba(0,0,0,.06);position:sticky;top:0}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo img{width:54px;height:54px;border-radius:50%;border:2px solid #FFE8CC}
+.logo-text{font-size:32px;font-weight:700;color:var(--orange)} .logo-text span{color:var(--green)}
+.wa-btn{border:2px solid #25D366;color:#1a8f3c;padding:8px 18px;border-radius:999px;font-weight:600;text-decoration:none}
+.hero{display:flex;align-items:center;justify-content:space-between;padding:40px 5%;background:white;gap:30px}
+.hero-text h1{font-size:48px;color:var(--green)} .hero-text h1 b{color:var(--orange)}
+.order-big{background:var(--orange);color:white;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.06);text-decoration:none;color:inherit}
+.card img{width:100%;height:220px;object-fit:cover}
+.card-body{padding:18px;text-align:center}
+@media(max-width:900px){.hero{flex-direction:column}.cards{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="header">
+<a class="logo" href="#">
+<img src="deli.jpeg" alt="Delli's Chef">
+<div class="logo-text">Delli's <span>Finger</span></div>
+</a>
+<a class="wa-btn" href="https://wa.me/2347067303412?text=Hello%20Delli's%20Finger" target="_blank">Order on WhatsApp</a>
+</header>
+
+<section class="hero">
+<div>
+<h1>Homemade • <b>Tasty</b> Friendly</h1>
+<p>Delicious Nigerian confectionaries & meals, made fresh daily for your satisfaction.</p><br>
+<a class="order-big" href="https://wa.me/2347067303412" target="_blank">Order Now - WhatsApp</a>
+</div>
+<img src="del (2).jpg" width="380" alt="African Chef">
+</section>
+
+<section style="padding:40px 5%">
+<h2 style="text-align:center;font-size:36px">Explore Our Menu</h2>
+<p style="text-align:center;color:#666">Click an image to see more pictures</p><br>
+<div class="cards">
+<a class="card" href="confectionaries.html">
+<img src="cream cake.jpg" alt="Confectionaries">
+<div class="card-body"><h3>Confectionaries</h3><p>Snacks gallery</p></div>
+</a>
+<a class="card" href="efo.html">
+<img src="efo.jpg" alt="Home made african local dishes">
+<div class="card-body"><h3 style="color:var(--green)">Semo & Efo Riro</h3><p>Local dishes gallery</p></div>
+</a>
+<a class="card" href="intercontinental.html">
+<img src="fried rice.jpg" alt="Intercontinental">
+<div class="card-body"><h3>Intercontinental</h3><p>International dish gallery</p></div>
+</a>
+</div
+</section>
+</body>
+</html>
